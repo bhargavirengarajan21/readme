@@ -39,39 +39,24 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
 
 <hr />
 
-<h2>🧠 Tech Stack</h2>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,java,mongodb,postgresql,aws,docker,kubernetes,git" />
-</p>
 
-<blockquote><b>Bonus:</b> I love blending these with tools like MediaPipe, OpenCV, Gemini, and Ollama for AI experiments.</blockquote>
+<div style="font-family: Arial, sans-serif; max-width: 500px; margin: 0 auto;">
+  <h2>👩‍💻 Tech Stack</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+    <span style="background: #f7df1e; color: #000; padding: 5px 10px; border-radius: 5px;">Docker</span>
+    <span style="background: #326ce5; color: #fff; padding: 5px 10px; border-radius: 5px;">Kubernetes</span>
+    <span style="background: #232f3e; color: #fff; padding: 5px 10px; border-radius: 5px;">AWS</span>
+    <span style="background: #24292e; color: #fff; padding: 5px 10px; border-radius: 5px;">GitHub Actions</span>
+    <span style="background: #f34b7d; color: #fff; padding: 5px 10px; border-radius: 5px;">DevOps</span>
+  </div>
 
-<hr />
-
-<h2>🚀 Recent Projects</h2>
-
-<h3>🎵 Music via Hand Gestures | AI + CV</h3>
-<ul>
-  <li>Control your Spotify playlist with hand signs</li>
-  <li><b>Tech:</b> Python, OpenCV, MediaPipe, pycaw</li>
-  <li><a href="https://github.com/bhargavirengarajan21/music-playing-using-hand-gestures">GitHub Repo ↗</a></li>
-</ul>
-
-<h3>📅 Full-stack Event Manager</h3>
-<ul>
-  <li>End-to-end platform for posting and registering for events</li>
-  <li><b>Tech:</b> React, Node.js, MongoDB, Docker</li>
-  <li><a href="https://eventhub-bhargavi.vercel.app">Live Demo ↗</a></li>
-</ul>
-
-<h3>💨 Air Quality Dashboard</h3>
-<ul>
-  <li>Real-time air pollution data with Mapbox visual overlays</li>
-  <li><b>Tech:</b> Flask, APIs, MapBox, Chart.js</li>
-  <li>Repo Coming Soon...</li>
-</ul>
-
+  <h2>🔎 Search My Projects</h2>
+  <input type="text" id="searchInput" placeholder="Enter keyword..." style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+  <ul id="projectList" style="list-style: none; padding: 0;">
+    <!-- Filtered projects will appear here -->
+  </ul>
+</div>
 <hr />
 
 <h2>📚 Currently Learning</h2>
