@@ -38,25 +38,93 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
 </p>
 
 <hr />
+<h2>🧠 My Tech Stack & Role-Based Projects</h2>
 
-
-
-<div style="font-family: Arial, sans-serif; max-width: 500px; margin: 0 auto;">
-  <h2>👩‍💻 Tech Stack</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-    <span style="background: #f7df1e; color: #000; padding: 5px 10px; border-radius: 5px;">Docker</span>
-    <span style="background: #326ce5; color: #fff; padding: 5px 10px; border-radius: 5px;">Kubernetes</span>
-    <span style="background: #232f3e; color: #fff; padding: 5px 10px; border-radius: 5px;">AWS</span>
-    <span style="background: #24292e; color: #fff; padding: 5px 10px; border-radius: 5px;">GitHub Actions</span>
-    <span style="background: #f34b7d; color: #fff; padding: 5px 10px; border-radius: 5px;">DevOps</span>
-  </div>
-
-  <h2>🔎 Search My Projects</h2>
-  <input type="text" id="searchInput" placeholder="Enter keyword..." style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
-  <ul id="projectList" style="list-style: none; padding: 0;">
-    <!-- Filtered projects will appear here -->
+<!-- Frontend Projects -->
+<details>
+  <summary><b>🎨 Frontend (React, Next.js, Tailwind, TypeScript)</b></summary>
+  <ul>
+    <li>
+      <b>📅 Event Management Platform</b><br>
+      Designed and implemented user-friendly event creation and registration UI.<br>
+      🔗 <a href="https://eventhub-bhargavi.vercel.app">Live Demo</a> | <a href="#">GitHub</a>
+    </li>
+    <li>
+      <b>📊 Financial Dashboard</b><br>
+      Built responsive data visualizations and charts using React and Chart.js.<br>
+      🔗 <a href="#">GitHub</a>
+    </li>
   </ul>
-</div>
+</details>
+
+<!-- Backend Projects -->
+<details>
+  <summary><b>🧩 Backend (Node.js, Express, Redis, MongoDB, PostgreSQL)</b></summary>
+  <ul>
+    <li>
+      <b>📦 Inventory Management System</b><br>
+      Built order processing, Redis-based caching, and RESTful APIs.<br>
+      🔗 <a href="#">GitHub</a>
+    </li>
+    <li>
+      <b>🧾 Course Registration API</b><br>
+      Developed logic for handling conflict resolution and capacity checks.<br>
+      🔗 <a href="#">GitHub</a>
+    </li>
+  </ul>
+</details>
+
+<!-- AI / Computer Vision Projects -->
+<details>
+  <summary><b>🧠 AI / ML / Computer Vision (Python, OpenCV, MediaPipe, PyTorch)</b></summary>
+  <ul>
+    <li>
+      <b>🎵 Music via Hand Gestures</b><br>
+      Real-time gesture recognition for music control.<br>
+      🔗 <a href="https://github.com/bhargavirengarajan21/music-playing-using-hand-gestures">GitHub</a>
+    </li>
+    <li>
+      <b>🖼️ Electrostatic Halftoning Renderer</b><br>
+      AI-based approach to dithering and stippling images.<br>
+      🔗 <a href="#">GitHub</a>
+    </li>
+  </ul>
+</details>
+
+<!-- Cloud & DevOps Projects -->
+<details>
+  <summary><b>☁️ Cloud & DevOps (Docker, Kubernetes, Jenkins, AWS, GCP)</b></summary>
+  <ul>
+    <li>
+      <b>🚀 CI/CD Pipeline Setup</b><br>
+      Dockerized app with Jenkins pipeline deployed on Kubernetes.<br>
+      🔗 <a href="#">GitHub</a>
+    </li>
+    <li>
+      <b>📈 Monitoring Dashboard</b><br>
+      Integrated Splunk & New Relic to track logs and metrics in real time.<br>
+      🔗 <a href="#">GitHub</a>
+    </li>
+  </ul>
+</details>
+
+<!-- Full Stack Projects -->
+<details>
+  <summary><b>🧪 Full Stack Integration</b></summary>
+  <ul>
+    <li>
+      <b>📅 Event Management Platform</b><br>
+      End-to-end development using React (frontend), Node.js + MongoDB (backend), and Docker (infra).<br>
+      🔗 <a href="https://eventhub-bhargavi.vercel.app">Live Demo</a> | <a href="#">GitHub</a>
+    </li>
+    <li>
+      <b>💨 Air Quality Visualization Dashboard</b><br>
+      Flask backend + MapBox + real-time API data + visualization frontend.<br>
+      🔗 <a href="#">GitHub</a>
+    </li>
+  </ul>
+</details>
+
 <hr />
 
 <h2>📚 Currently Learning</h2>
@@ -88,37 +156,6 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
 
 <p><b>📫 Email:</b> <a href="mailto:breng002@ucr.edu">breng002@ucr.edu</a></p>
 <p><b>🌐 Portfolio:</b> <a href="https://bhargavi-r-21.vercel.app">bhargavi-r-21.vercel.app</a></p>
-
-<script>
-  // Replace with your actual project list and descriptions
-  const projects = [
-    { name: "docker-storage-commands", url: "https://github.com/bhargavirengarajan21/docker-storage-commands", desc: "Docker storage commands and best practices" },
-    { name: "kubernetes-labs", url: "#", desc: "Kubernetes labs and tutorials" },
-    { name: "aws-static-site", url: "#", desc: "Host static website on AWS S3" },
-    { name: "github-actions-ci", url: "#", desc: "CI/CD pipelines using GitHub Actions" },
-    { name: "devops-notes", url: "#", desc: "DevOps notes and resources" }
-  ];
-
-  function filterProjects(keyword) {
-    return projects
-      .filter(p => (p.name + " " + p.desc).toLowerCase().includes(keyword.toLowerCase()))
-      .slice(0, 3);
-  }
-
-  document.getElementById('searchInput').addEventListener('input', function() {
-    const keyword = this.value;
-    const filtered = filterProjects(keyword);
-    const list = document.getElementById('projectList');
-    list.innerHTML = '';
-    if (filtered.length === 0 && keyword) {
-      list.innerHTML = '<li>No projects found.</li>';
-    } else {
-      filtered.forEach(p => {
-        list.innerHTML += `<li><a href="${p.url}" target="_blank" style="text-decoration:none;color:#0366d6;"><strong>${p.name}</strong></a><br><small>${p.desc}</small></li>`;
-      });
-    }
-  });
-</script>
 <hr />
 
 <blockquote>
