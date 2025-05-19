@@ -145,15 +145,6 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
 
 <hr />
 
-<h2>💬 Let’s Build Something Together</h2>
-
-<p>I’m open to:</p>
-<ul>
-  <li>🎨 AI + design-driven apps</li>
-  <li>⚡ Fast-paced startups in Web3/media-tech</li>
-  <li>🎓 Mentoring students or interns in tech</li>
-</ul>
-
 <blockquote>
   <em>"A good product tells a story. A great engineer makes sure it's one worth listening to."</em>
 </blockquote>
