@@ -38,6 +38,40 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
 </p>
 
 <hr />
+<h2>🛠️ Tools & Technologies I've Used</h2>
+
+<p align="center">
+  <!-- Languages -->
+  <img src="https://skillicons.dev/icons?i=js,ts,java,python,cpp,go,ruby" />
+  <br><br>
+
+  <!-- Frontend -->
+  <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,sass,tailwind,bootstrap" />
+  <br><br>
+
+  <!-- Backend -->
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,rails" />
+  <br><br>
+
+  <!-- Database -->
+  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis" />
+  <br><br>
+
+  <!-- DevOps / Cloud -->
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,aws,gcp,azure" />
+  <br><br>
+
+  <!-- Tools -->
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,figma,vercel,netlify" />
+  <br><br>
+
+  <!-- AI / ML -->
+  <img src="https://skillicons.dev/icons?i=pytorch,numpy" />
+</p>
+</p>
+</p>
+</p>
+<hr />
 <h2>🧠 My Tech Stack & Role-Based Projects</h2>
 
 <!-- Frontend Projects -->
