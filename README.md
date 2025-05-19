@@ -154,10 +154,17 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
   <li>🎓 Mentoring students or interns in tech</li>
 </ul>
 
-<p><b>📫 Email:</b> <a href="mailto:breng002@ucr.edu">breng002@ucr.edu</a></p>
-<p><b>🌐 Portfolio:</b> <a href="https://bhargavi-r-21.vercel.app">bhargavi-r-21.vercel.app</a></p>
-<hr />
-
 <blockquote>
   <em>"A good product tells a story. A great engineer makes sure it's one worth listening to."</em>
 </blockquote>
+
+<hr />
+<h2>📬 Contact Me</h2>
+
+<p>
+  <b>📧 Email:</b> <a href="mailto:breng002@ucr.edu">breng002@ucr.edu</a><br>
+  <b>🌐 Portfolio:</b> <a href="https://bhargavi-r-21.vercel.app" target="_blank">bhargavi-r-21.vercel.app</a><br>
+  <b>🔗 LinkedIn:</b> <a href="https://www.linkedin.com/in/bhargavirengarajan21/" target="_blank">linkedin.com/in/bhargavirengarajan21</a><br>
+</p>
+
+
