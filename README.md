@@ -89,6 +89,36 @@ Whether it's building scalable backend services or intuitive UI workflows, I app
 <p><b>📫 Email:</b> <a href="mailto:breng002@ucr.edu">breng002@ucr.edu</a></p>
 <p><b>🌐 Portfolio:</b> <a href="https://bhargavi-r-21.vercel.app">bhargavi-r-21.vercel.app</a></p>
 
+<script>
+  // Replace with your actual project list and descriptions
+  const projects = [
+    { name: "docker-storage-commands", url: "https://github.com/bhargavirengarajan21/docker-storage-commands", desc: "Docker storage commands and best practices" },
+    { name: "kubernetes-labs", url: "#", desc: "Kubernetes labs and tutorials" },
+    { name: "aws-static-site", url: "#", desc: "Host static website on AWS S3" },
+    { name: "github-actions-ci", url: "#", desc: "CI/CD pipelines using GitHub Actions" },
+    { name: "devops-notes", url: "#", desc: "DevOps notes and resources" }
+  ];
+
+  function filterProjects(keyword) {
+    return projects
+      .filter(p => (p.name + " " + p.desc).toLowerCase().includes(keyword.toLowerCase()))
+      .slice(0, 3);
+  }
+
+  document.getElementById('searchInput').addEventListener('input', function() {
+    const keyword = this.value;
+    const filtered = filterProjects(keyword);
+    const list = document.getElementById('projectList');
+    list.innerHTML = '';
+    if (filtered.length === 0 && keyword) {
+      list.innerHTML = '<li>No projects found.</li>';
+    } else {
+      filtered.forEach(p => {
+        list.innerHTML += `<li><a href="${p.url}" target="_blank" style="text-decoration:none;color:#0366d6;"><strong>${p.name}</strong></a><br><small>${p.desc}</small></li>`;
+      });
+    }
+  });
+</script>
 <hr />
 
 <blockquote>
